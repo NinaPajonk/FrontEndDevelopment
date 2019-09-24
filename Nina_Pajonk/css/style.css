@@ -1,0 +1,213 @@
+* {
+    background-color: #002ec4;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#nav {
+    height: 1rem;
+    width: 70vw;
+    position: absolute;
+    display: block;
+    background-color: #002ec4;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#nav li {
+    list-style-type: none;
+    margin-top: 1vh;
+    font-size: 2vh;
+
+}
+
+#nav li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#nav li a:visited {
+    color: white;
+}
+
+#nav li a:hover {
+    color: #71CC72;
+}
+
+
+#x {
+    width: 8vw;
+    height: 3vh;
+
+}
+
+#banner {
+    max-width: 100vw;
+}
+
+#kader {
+    width: 100vw;
+    height: 10vh;
+}
+
+h1 {
+    font-size: 2vh;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    padding: 2vh;
+    background-color: #71CC72;
+}
+
+#ticketsknop {
+    height: 5vh;
+    margin-left: 7vh;
+    background-color: white;
+    color: blue;
+
+}
+
+.artiestfoto {
+    width: 35vh;
+
+
+}
+
+
+
+.item {
+    width: 35vh;
+    font-size: 1vh;
+    padding: 1vh;
+    margin-left: 3vh;
+    background-color: #71CC72;
+    margin-top: 1vh;
+
+}
+
+.titel {
+    background-color: #71CC72;
+}
+
+.h2 {
+    background-color: #71CC72;
+
+}
+
+.like {
+    background-color: #71CC72;
+    padding-right: 4vw;
+
+}
+
+.afb {
+    width: 5vw;
+    height: 3vh;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-color: white;
+    margin: 10vw;
+
+}
+
+.icons {
+    width: 9vw;
+}
+
+/*engelish pagina*/
+
+#englishbanner {
+    width: 100vw;
+
+}
+
+.fotos {
+    width: 80vw;
+    height: 60vw;
+}
+
+#green {
+    border: solid;
+    border-color: #71CC72;
+    background-color: #71CC72;
+    width: 70vw;
+    margin: auto;
+    0px;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    #nav {
+        width: 100vw;
+        position: fixed;
+        height: 1vh;
+        background-color: #002ec4;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    #nav li {
+        list-style-type: none;
+        font-size: 2.8vh;
+        display: inline;
+        margin-right: 2vw;
+
+    }
+
+    #x {
+        visibility: hidden;
+    }
+
+    .like {
+        width: 3vw;
+        height: 6vh;
+    }
+
+    .afb {
+        width: 3vw;
+        height: 5vh;
+    }
+
+    #ticketsknop {
+        height: 5vh;
+        display: block;
+        margin: auto;
+    }
+
+    #kader {
+        width: 100vw;
+
+    }
+
+    .item {
+     max-width: 80vw;
+        height: 40vh;
+   
+
+
+    }
+
+    .artiestfoto {
+        width: 100%;
+
+    }
+
+    #items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .center {
+        text-align: center;
+    }
+    /*engelish pagina*/
+    
+    #green{background-color: #71CC72;
+        
+    }
+}
+
